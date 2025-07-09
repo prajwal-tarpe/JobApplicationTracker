@@ -2,6 +2,8 @@
 
 A full-stack job applications tracking system with a modern and responsive UI, powerful backend, and data visualization. Track your applied jobs, visualize progress, and manage your job search effortlessly.
 
+## 🔗 Live Demo
+🌐 [https://job-applications-tracker-ui.vercel.app/login](https://job-applications-tracker-ui.vercel.app/login) 
 
 🚀 Features
 
