@@ -25,7 +25,7 @@ function Login({onLoginSuccess}) {
   }
 
   try {
-    const url = 'http://localhost:8082/auth/login';
+    const url = 'https://job-applications-tracker-api.vercel.app/auth/login';
 
     const { data: result } = await axios.post(url, loginInfo, {
       headers: {
