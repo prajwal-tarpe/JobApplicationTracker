@@ -24,7 +24,7 @@ function Signup() {
   }
 
   try {
-    const url = 'http://localhost:8082/auth/signup';
+    const url = 'https://job-applications-tracker-api.vercel.app/auth/signup';
     const { data: result } = await axios.post(url, signupInfo);
 
     const { success, message, error } = result;
