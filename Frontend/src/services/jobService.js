@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8082/jobs';
+const API_URL = 'https://job-applications-tracker-api.vercel.app/jobs';
 
 export const fetchJobsService = async (filters, token) => {
   const query = new URLSearchParams(filters).toString();
